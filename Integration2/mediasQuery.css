@@ -1,0 +1,83 @@
+/* Média-queries pour les écrans jusqu'à 895 pixels de largeur */
+@media screen and (max-width: 895px) {
+  /* Réduction de la taille de police des éléments de la barre de navigation */
+  nav li {
+    font-size: 0.7rem;
+  }
+  /* Réduction de la largeur de l'image principale de l'en-tête */
+  .main-header img {
+    width: 60%;
+  }
+  /* Ajout de padding à gauche pour les éléments de la liste de contact */
+  .contact-list .list {
+    padding-left: 15px;
+  }
+  /* Réduction de la largeur des logos dans la section des médias */
+  .medias-logos img {
+    width: 40px;
+  }
+  /* Réorganisation des éléments de la liste dans le pied de page */
+  footer ul {
+    flex-wrap: wrap;
+  }
+  /* Ajout de marge entre les éléments de la liste dans le pied de page */
+  footer li {
+    margin: 5px;
+  }
+}
+
+/* Média-queries pour les écrans jusqu'à 704 pixels de largeur */
+@media screen and (max-width: 704px) {
+  /* Masquage des éléments de la barre de navigation */
+  nav li {
+    display: none;
+  }
+  /* Affichage en bloc de la section des icônes */
+  .icon-part-container {
+    display: block;
+  }
+  /* Réduction du padding de la section des icônes */
+  .icon-part {
+    padding: 0 0 30px;
+  }
+  /* Ajout de marge en haut pour les éléments de la liste d'icônes */
+  .list-icon-part {
+    margin-top: 40px;
+  }
+  /* Affichage en bloc de la section des actualités */
+  .header-news {
+    display: block;
+  }
+  /* Ajustement de la largeur de la partie gauche des actualités */
+  .left-part {
+    width: 100%;
+  }
+  /* Centrage du titre de la partie gauche des actualités */
+  .left-part h2 {
+    text-align: center;
+  }
+  /* Centrage du paragraphe de la partie gauche des actualités */
+  .left-part p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  /* Ajustement de la largeur maximale des éléments de contenu dans la section des actualités */
+  .main-news-container {
+    display: block;
+  }
+  /* Ajustement de la largeur des éléments d'image dans la section des actualités */
+  .main-news-container div {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    margin-top: 58px;
+  }
+  /* Réduction de la largeur des images dans la section des actualités */
+  .main-news-container img {
+    width: 50%;
+  }
+  /* Masquage de la section de contact */
+  .contact {
+    display: none;
+  }
+}

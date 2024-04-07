@@ -1,0 +1,71 @@
+/* Style du premier lien de la barre de navigation */
+.navbar-nav .nav-item:first-child .nav-link {
+  color: rgb(95, 4, 170);
+}
+
+/* Style du dernier lien de la barre de navigation */
+.navbar-nav .nav-item:last-child .nav-link {
+  color: black;
+}
+
+/* Effet au survol des liens de la barre de navigation */
+.navbar-nav .nav-item:hover:before {
+  background: rgb(95, 4, 170);
+}
+
+/* Style de la barre de navigation */
+.navbar-nav {
+  /* Affichage en ligne des éléments de la barre de navigation avec espacement entre eux */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Padding de 5 pixels sur les côtés */
+  padding: 0 5px;
+}
+
+/* Style des éléments de la barre de navigation */
+.navbar-nav .nav-item {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Poids de la police en gras */
+  font-weight: 900;
+  /* Taille de police de 0.9rem (environ 14.4 pixels) */
+  font-size: 0.9rem;
+  /* Curseur pointeur au survol */
+  cursor: pointer;
+  /* Positionnement relatif pour le pseudo-élément */
+  position: relative;
+  /* Transition pour une animation fluide */
+  transition: 0.3s ease;
+  /* Padding de 20 pixels en haut et en bas, aucun rembourrage sur les côtés */
+  padding: 20px 0;
+}
+
+/* Pseudo-élément pour l'effet de soulignement */
+.navbar-nav .nav-item:before {
+  /* Contenu vide pour le pseudo-élément */
+  content: "";
+  /* Largeur de 100% */
+  width: 100%;
+  /* Hauteur de 5 pixels */
+  height: 5px;
+  /* Position absolue pour le pseudo-élément */
+  position: absolute;
+  /* Arrière-plan transparent */
+  background: transparent;
+  /* Translation vers le haut pour le pseudo-élément */
+  transform: translateY(-20px);
+}
+
+/* Suppression de l'effet de soulignement pour le dernier lien */
+.navbar-nav .nav-item:last-child:before {
+  background: none;
+}
+
+/* Style de la barre de navigation principale */
+.navbar {
+  /* Largeur maximale de 1100 pixels pour centrer la barre de navigation */
+  max-width: 1100px;
+  /* Centrage horizontal de la barre de navigation */
+  margin: 0 auto;
+}

@@ -1,0 +1,153 @@
+/* Style de la section des actualités */
+.news-part {
+  /* Arrière-plan gris légèrement transparent */
+  background: rgba(245, 245, 245, 0.8);
+  /* Padding de 80 pixels en haut, 45 pixels en bas */
+  padding: 80px 0 45px;
+}
+
+/* Conteneur de l'en-tête des actualités */
+.header-news {
+  /* Affichage en grille avec 70% pour la partie gauche et 30% pour la partie droite */
+  display: grid;
+  grid-template-columns: 70% 30%;
+  /* Largeur maximale de 1000 pixels pour centrer le contenu */
+  max-width: 1000px;
+  /* Centrage horizontal du conteneur */
+  margin: 0 auto;
+}
+
+/* Partie gauche de l'en-tête des actualités */
+.left-part {
+  /* Hauteur de ligne de 30 pixels */
+  line-height: 30px;
+}
+
+/* Titre de la partie gauche de l'en-tête des actualités */
+.left-part h2 {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Espacement des lettres de 2 pixels */
+  letter-spacing: 2px;
+  /* Poids de la police en gras */
+  font-weight: 600;
+  /* Alignement du texte à gauche */
+  text-align: left;
+}
+
+/* Paragraphe de la partie gauche de l'en-tête des actualités */
+.left-part p {
+  /* Poids de la police en gras */
+  font-weight: 600;
+  /* Taille de police de 0.9rem (environ 14.4 pixels) */
+  font-size: 0.9rem;
+  /* Alignement du texte à gauche */
+  text-align: left;
+}
+
+/* Bouton de la partie droite de l'en-tête des actualités */
+.right-part button {
+  /* Couleur du texte noire */
+  color: black;
+  /* Couleur de la bordure noire */
+  border-color: black;
+  /* Espacement des lettres de 1 pixel */
+  letter-spacing: 1px;
+  /* Padding de 10 pixels en haut et en bas, 20 pixels sur les côtés */
+  padding: 10px 20px;
+}
+
+/* Effet au survol du bouton de la partie droite de l'en-tête des actualités */
+.right-part button:hover {
+  /* Couleur du texte blanc */
+  color: whitesmoke;
+  /* Arrière-plan noir légèrement transparent */
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* Conteneur principal des actualités */
+.main-news-container {
+  /* Affichage en ligne des actualités avec espacement entre elles */
+  display: flex;
+  justify-content: space-around;
+  /* Largeur maximale de 1100 pixels pour centrer le contenu */
+  max-width: 1100px;
+  /* Marge de 45 pixels en haut et en bas, centrage horizontal */
+  margin: 45px auto;
+}
+
+/* Conteneur des éléments individuels des actualités */
+.main-news-container > div {
+  /* Position relative pour les éléments */
+  position: relative;
+  /* Largeur maximale de 23% pour espacement équilibré */
+  max-width: 23%;
+}
+
+/* Image dans les actualités */
+.mn-pic img {
+  /* Ajustement de la taille de l'image pour couvrir la zone */
+  object-fit: cover;
+  /* Largeur de 100% */
+  width: 100%;
+  /* Bordure arrondie de 3 pixels */
+  border-radius: 3px;
+  /* Ombre portée pour l'image */
+  box-shadow: 0 2px 10px #888;
+}
+
+/* Titre dans les actualités */
+.main-news-container h4 {
+  /* Marge de 15 pixels en haut, aucune marge sur les côtés, alignement à gauche */
+  margin: 15px 0;
+  /* Alignement du texte à gauche */
+  text-align: left;
+}
+
+/* Paragraphe dans les actualités */
+.main-news-container p {
+  /* Alignement du texte à gauche */
+  text-align: left;
+  /* Taille de police de 0.8rem (environ 12.8 pixels) */
+  font-size: 0.8rem;
+  /* Hauteur de ligne de 20 pixels */
+  line-height: 20px;
+  /* Marge de 45 pixels en bas pour espacement */
+  margin-bottom: 45px;
+}
+
+/* Lien dans les actualités */
+.link {
+  /* Alignement du texte à gauche */
+  text-align: left;
+  /* Position absolue pour le positionnement au bas de l'élément parent */
+  position: absolute;
+  /* Bas de l'élément aligné à 0 */
+  bottom: 0;
+}
+
+/* Style du lien dans les actualités */
+.main-news a {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Couleur du texte violet */
+  color: rgb(95, 4, 170);
+  /* Taille de police de 0.7rem (environ 11.2 pixels) */
+  font-size: 0.7rem;
+  /* Espacement des lettres de 1 pixel */
+  letter-spacing: 1px;
+  /* Poids de la police en gras */
+  font-weight: 900;
+}
+
+/* Effet au survol du lien dans les actualités */
+.main-news a:hover {
+  /* Couleur du texte jaune pâle */
+  color: rgb(180, 180, 1);
+}
+
+/* Icône dans les actualités */
+.main-news i {
+  /* Translation horizontale de 5 pixels vers la droite */
+  transform: translateX(5px);
+}

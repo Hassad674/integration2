@@ -1,0 +1,35 @@
+/* Section de l'en-tête principal */
+.main-header {
+  /* Arrière-plan avec une image de fond centrée et couvrant l'ensemble de la section */
+  background: url(./assets/img/bg.jpg) fixed center/cover;
+  /* Couleur du texte blanc */
+  color: white;
+  /* Padding de 60 pixels autour du contenu */
+  padding: 60px;
+}
+
+/* Titre principal */
+h1 {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Taille de police de 1.5rem (environ 24 pixels) */
+  font-size: 1.5rem;
+  /* Poids de la police en gras */
+  font-weight: 700;
+  /* Marge supérieure de 30 pixels, aucune marge sur les côtés, marge inférieure de 35 pixels */
+  margin: 30px 0 35px;
+}
+
+/* Bouton dans l'en-tête principal */
+.main-header button {
+  /* Padding de 15 pixels en haut et en bas, 30 pixels sur les côtés */
+  padding: 15px 30px;
+  /* Espacement des lettres de 2 pixels */
+  letter-spacing: 2px;
+}
+
+/* Icône dans l'en-tête principal */
+.main-header i {
+  /* Translation horizontale de 5 pixels vers la droite */
+  transform: translateX(5px);
+}

@@ -1,0 +1,31 @@
+/* Section du pied de page */
+.footer {
+  /* Arrière-plan noir foncé */
+  background: rgb(15, 15, 15);
+  /* Couleur du texte blanc */
+  color: whitesmoke;
+  /* Padding de 25 pixels autour du contenu */
+  padding: 25px;
+}
+
+/* Titre du pied de page */
+footer h3 {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Poids de la police en gras */
+  font-weight: 700;
+  /* Marge inférieure de 32 pixels */
+  margin-bottom: 32px;
+}
+
+/* Liste dans le pied de page */
+footer ul {
+  /* Affichage en ligne des éléments de la liste */
+  display: flex;
+  /* Répartition égale de l'espace entre les éléments */
+  justify-content: space-around;
+  /* Largeur maximale de 1000 pixels pour centrer la liste */
+  max-width: 1000px;
+  /* Centrer la liste horizontalement */
+  margin: 0 auto;
+}

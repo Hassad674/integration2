@@ -1,0 +1,49 @@
+/* Style de la section des icônes */
+.icon-part {
+  /* Arrière-plan noir foncé */
+  background: rgb(15, 15, 15);
+  /* Padding de 65 pixels en haut et en bas */
+  padding: 65px 0;
+  /* Couleur du texte blanc */
+  color: whitesmoke;
+}
+
+/* Conteneur des icônes */
+.icon-part-container {
+  /* Affichage en ligne des icônes avec espacement entre eux */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Largeur maximale de 1100 pixels pour centrer le contenu */
+  max-width: 1100px;
+  /* Centrage horizontal du conteneur */
+  margin: 0 auto;
+}
+
+/* Logo de l'icône */
+.lip-logo {
+  /* Marge inférieure de 30 pixels */
+  margin-bottom: 30px;
+}
+
+/* Titre de la section des icônes */
+.icon-part h3 {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Poids de la police en gras */
+  font-weight: 700;
+}
+
+/* Description de la section des icônes */
+.icon-part p {
+  /* Largeur de 80% pour centrer le texte */
+  width: 80%;
+  /* Marge de 10 pixels en haut, 20 pixels en bas, centrage horizontal */
+  margin: 10px auto 20px;
+}
+
+/* Bouton dans la section des icônes */
+.icon-part button {
+  /* Padding de 9 pixels en haut et en bas, 32 pixels sur les côtés */
+  padding: 9px 32px;
+}

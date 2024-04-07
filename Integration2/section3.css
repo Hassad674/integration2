@@ -1,0 +1,156 @@
+/* Style de la section de contact */
+.contact {
+  /* Padding de 65 pixels en haut, 20 pixels en bas */
+  padding: 65px 0 20px;
+  /* Largeur maximale de 1100 pixels pour centrer le contenu */
+  max-width: 1100px;
+  /* Centrage horizontal du conteneur */
+  margin: 0 auto;
+}
+
+/* Liste de contact */
+.contact-list {
+  /* Affichage en ligne avec espacement entre les éléments */
+  display: flex;
+  justify-content: space-around;
+  /* Poids de la police en 400 */
+  font-weight: 400;
+  /* Position relative pour l'élément parent */
+  position: relative;
+}
+
+/* Ligne horizontale sous la liste de contact */
+.contact-list:after {
+  /* Contenu vide */
+  content: "";
+  /* Position absolue pour la ligne */
+  position: absolute;
+  /* Largeur de 80% */
+  width: 80%;
+  /* Hauteur de 1 pixel */
+  height: 1px;
+  /* Arrière-plan gris clair */
+  background: rgb(235, 235, 235);
+  /* Décalage vers le bas de 28 pixels */
+  bottom: -28px;
+}
+
+/* Éléments individuels de la liste de contact */
+.contact-list .list {
+  /* Alignement du texte à gauche */
+  text-align: left;
+  /* Largeur de 24% */
+  width: 24%;
+}
+
+/* Image de contact */
+#contact-img img {
+  /* Marge automatique sur les côtés pour centrer l'image */
+  margin: 0 auto;
+  /* Affichage en bloc */
+  display: block;
+}
+
+/* Titre de la liste de contact */
+.contact-list h5 {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Taille de police de 1rem (environ 16 pixels) */
+  font-size: 1rem;
+  /* Marge inférieure de 15 pixels */
+  margin-bottom: 15px;
+}
+
+/* Éléments de la liste d'informations pratiques */
+.infos-p li {
+  /* Marge de 15 pixels en haut et en bas */
+  margin: 15px 0;
+}
+
+/* Paragraphe de la liste */
+.list p {
+  /* Hauteur de ligne de 22 pixels */
+  line-height: 22px;
+  /* Marge inférieure de 15 pixels */
+  margin-bottom: 15px;
+}
+
+/* Sous-titre de la liste */
+.list h6 {
+  /* Taille de police de 0.8rem (environ 12.8 pixels) */
+  font-size: 0.8rem;
+  /* Marge inférieure de 8 pixels */
+  margin-bottom: 8px;
+}
+
+/* Réseau social dans la liste */
+.list .network {
+  /* Marge de 20 pixels en haut, 8 pixels en bas */
+  margin: 20px 0 8px;
+}
+
+/* Style de la section des médias de contact */
+.contact-medias {
+  /* Padding de 60 pixels en haut, 15 pixels en bas */
+  padding: 60px 0 15px;
+  /* Affichage en ligne avec alignement vertical */
+  display: flex;
+  align-items: center;
+  /* Largeur de 95% */
+  width: 95%;
+  /* Centrage horizontal du conteneur */
+  margin: 0 auto;
+}
+
+/* Texte des médias de contact */
+.medias-text {
+  /* Alignement du texte à gauche */
+  text-align: left;
+  /* Largeur de 30% */
+  width: 30%;
+}
+
+/* Titre des médias de contact */
+.medias-text h3 {
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Taille de police de 0.9rem (environ 14.4 pixels) */
+  font-size: 0.9rem;
+  /* Marge inférieure de 12 pixels */
+  margin-bottom: 12px;
+}
+
+/* Paragraphe des médias de contact */
+.medias-text p {
+  /* Taille de police de 0.8rem (environ 12.8 pixels) */
+  font-size: 0.8rem;
+}
+
+/* Logos des médias de contact */
+.medias-logos {
+  /* Affichage en ligne avec espacement entre les éléments */
+  display: flex;
+  justify-content: space-around;
+  /* Largeur de 70% */
+  width: 70%;
+}
+
+/* Images des logos des médias */
+.medias-logos img {
+  /* Largeur de 60 pixels */
+  width: 60px;
+}
+
+/* Logos dans le pied de page */
+.footer-logos i {
+  /* Taille de police de 0.8rem (environ 12.8 pixels) */
+  font-size: 0.8rem;
+  /* Marge à droite de 12 pixels, en bas de 30 pixels */
+  margin: 0 12px 30px 0;
+}
+
+/* Droit d'auteur dans le pied de page */
+.footer .copyright {
+  /* Marge de 0 */
+  margin: 0;
+}

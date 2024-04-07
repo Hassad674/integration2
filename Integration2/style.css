@@ -1,0 +1,67 @@
+/* Définition de la police personnalisée Montserrat */
+@font-face {
+  font-family: "Montserrat";
+  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+/* Réinitialisation des styles par défaut et définition des styles globaux */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Utilisation de la police Montserrat comme police par défaut avec sauvegarde de la police générique sans-serif */
+  font-family: Montserrat, sans-serif;
+  /* Suppression de la puce par défaut pour les listes */
+  list-style: none;
+}
+
+/* Style des boutons */
+button {
+  /* Fond transparent */
+  background: none;
+  /* Suppression du contour par défaut */
+  outline: none;
+  /* Bordure de 1 pixel solide de couleur blanc fumée */
+  border: 1px solid whitesmoke;
+  /* Couleur du texte en blanc */
+  color: white;
+  /* Transformation du texte en majuscules */
+  text-transform: uppercase;
+  /* Poids de la police en 700 */
+  font-weight: 700;
+  /* Transition fluide sur 0.4 seconde */
+  transition: 0.4s ease;
+  /* Curseur de type pointeur au survol */
+  cursor: pointer;
+}
+
+/* Style au survol des boutons */
+button:hover {
+  /* Changement de couleur du texte en noir */
+  color: black;
+  /* Fond blanc fumée */
+  background: whitesmoke;
+}
+
+/* Suppression de la décoration des liens */
+a {
+  text-decoration: none;
+}
+
+/* Style du corps de la page */
+body {
+  /* Marge automatique sur les côtés pour centrer le contenu */
+  margin: 0 auto;
+  /* Alignement du texte centré */
+  text-align: center;
+}
+
+/* Style du bouton de changement de langue */
+#language {
+  /* Arrière-plan semi-transparent */
+  background: rgba(128, 128, 128, 0.25);
+  /* Bordure arrondie */
+  border-radius: 50px;
+  /* Padding de 8 pixels en haut et en bas, 16 pixels à gauche et à droite */
+  padding: 8px 16px;
+}

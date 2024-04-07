@@ -1,0 +1,13 @@
+/* Section du texte de l'en-tête */
+.header-text {
+  /* Padding en haut en et bas de 45 pixels */
+  padding: 45px 0;
+  /* Largeur maximale de 1100 pixels pour centrer le contenu */
+  max-width: 1100px;
+  /* Taille de police de 1.2rem (environ 19.2 pixels) */
+  font-size: 1.2rem;
+  /* Hauteur de ligne de 34 pixels */
+  line-height: 34px;
+  /* Centrer le contenu horizontalement */
+  margin: 0 auto;
+}
